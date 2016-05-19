@@ -1,0 +1,39 @@
+{
+  "name": "vast-xml-4",
+  "version": "0.1.0",
+  "description": "A library for parsing and creating VAST 4.0 XML",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js \"lib/**\" && istanbul --print=both cover _mocha -- \"**/*.test.js\"",
+    "lint": "eslint index.js \"lib/**\""
+  },
+  "dependencies": {
+    "xml2js": "<1.0.0",
+    "lodash": "^4.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-react": "^5.1.1",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-import": "^1.8.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "bluebird": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibbybird/vast-xml-4.git"
+  },
+  "keywords": [
+    "vast",
+    "xml",
+    "4.0"
+  ],
+  "author": "Luke Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shibbybird/vast-xml-4/issues"
+  },
+  "homepage": "https://github.com/shibbybird/vast-xml-4#readme"
+}
