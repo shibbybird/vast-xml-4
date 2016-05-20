@@ -8,7 +8,7 @@ const vastXML = require('../index');
 
 describe('Test JSON Parse Builder', () => {
   before(() => (
-    fsReadFile('./test-data/vast-inline.xml').bind(this)
+    fsReadFile('./tests/test-data/vast-inline.xml').bind(this)
       .then((str) => {
         this.xmlFileStr = str;
         return vastXML.parse(str);
