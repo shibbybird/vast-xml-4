@@ -1,4 +1,6 @@
-# VAST 4.0 Parser and Builder
+# VAST 4.0 Parser and Builder 
+
+[![Travis Build][travis-image]][travis-url]
 
 This is a simple VAST parser and builder heavily using xml2js. This VAST parser is used to keep a consistent and compliant VAST structure between building and parsing. Validation is NOT implemented yet so use at your own risk.
 
@@ -267,3 +269,6 @@ This is a simple VAST parser and builder heavily using xml2js. This VAST parser 
 ## TODO's
 * Add Validation when building and parsing VAST 4.0
 * Add Utility Functions setValue and setAttr for building VAST
+* 
+[travis-image]: https://travis-ci.org/shibbybird/vast-xml-4.svg?branch=master
+[travis-url]: https://travis-ci.org/shibbybird/vast-xml-4
