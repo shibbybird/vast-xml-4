@@ -1,6 +1,6 @@
 # VAST 4.0 Parser and Builder
 
-This is a simple VAST parser and builder heavily using xml2js. This VAST parser is used to keep a consistent and compliant VAST structure between building and parsing.
+This is a simple VAST parser and builder heavily using xml2js. This VAST parser is used to keep a consistent and compliant VAST structure between building and parsing. Validation is NOT implemented yet so use at your own risk.
 
 ## Example Usage
 
